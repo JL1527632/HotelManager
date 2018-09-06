@@ -29,7 +29,6 @@
                 android:value="ui.RoomListActivity" />
         </activity>
         <activity android:name=".ui.DetailsEditorActivity" />
-        <activity android:name=".ui.DatabaseInteractionActivity" />
         <activity
             android:name=".ui.AboutHotelActivity"
             android:parentActivityName=".ui.RoomListActivity">

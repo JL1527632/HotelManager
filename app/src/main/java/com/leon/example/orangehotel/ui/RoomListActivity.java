@@ -86,22 +86,6 @@ public class RoomListActivity extends AppCompatActivity implements RoomListFragm
         return super.onOptionsItemSelected(item);
     }
 
-    private void openRoomDetailsActivity() {
-        Context context = this;
-
-        Class destinationClass = DetailsEditorActivity.class;
-        Intent intentToStartDetailActivity = new Intent(context, destinationClass);
-        startActivity(intentToStartDetailActivity);
-    }
-
-    private void openDataBaseActivity() {
-        Context context = this;
-
-        Class destinationClass = DatabaseInteractionActivity.class;
-        Intent intentToStartDetailActivity = new Intent(context, destinationClass);
-        startActivity(intentToStartDetailActivity);
-    }
-
     private void openSettingsActivity() {
         Context context = this;
         Class destinationClass = AboutHotelActivity.class;

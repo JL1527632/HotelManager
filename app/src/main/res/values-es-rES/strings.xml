@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Orange - Administrador</string>
+    <string name="app_label">Orange</string>
+    <string name="action_settings">ajustes</string>
+    <string name="status_dirty">Sucio</string>
+    <string name="status_occupied">Ocupado</string>
+    <string name="status_clean">Limpio</string>
+    <string name="room_type_sb">Una Cama</string>
+    <string name="room_type_ss">Una Cama Para Fumador</string>
+    <string name="room_type_db">Doble Cama</string>
+    <string name="room_type_ds">Doble Cama Para Fumador</string>
+    <string name="room_type_ste">Suite</string>
+    <string name="room_type_sts">Suite Para Fumador</string>
+    <string name="save">Guardar</string>
+    <string name="no_reservation" translatable="true">Sin Reservacion</string>
+</resources>

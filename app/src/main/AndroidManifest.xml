@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leon.example.orangehotel">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_hotel"
+        android:label="@string/app_label"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.RoomListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.RoomSummaryActivity"
+            android:parentActivityName=".ui.RoomListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ui.RoomListActivity" />
+        </activity>
+        <activity android:name=".ui.DetailsEditorActivity" />
+        <activity android:name=".ui.DatabaseInteractionActivity" />
+        <activity
+            android:name=".ui.AboutHotelActivity"
+            android:parentActivityName=".ui.RoomListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.RoomListActivity" />
+        </activity>
+
+        <service android:name=".SupportUtilities.WidgetIntentService" />
+
+        <receiver android:name=".SupportUtilities.WidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/daily_summary_widget_provider_info" />
+        </receiver>
+
+    </application>
+
+</manifest>

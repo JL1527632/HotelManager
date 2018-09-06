@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/no_reservation_dark">
+
+    <ImageView
+        android:id="@+id/back_arrow_view"
+        style="@style/dayChangeArrows"
+        android:contentDescription="@string/content_description_previous"
+        android:src="@drawable/baseline_arrow_back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/todays_date_view"
+        style="@style/dailyTitle"
+        android:textColor="@color/title_color"
+        app:layout_constraintEnd_toStartOf="@+id/forward_arrow_view"
+        app:layout_constraintLeft_toRightOf="@id/back_arrow_view"
+        app:layout_constraintRight_toLeftOf="@id/forward_arrow_view"
+        app:layout_constraintStart_toEndOf="@+id/back_arrow_view"
+        tools:text="January 4, 2018" />
+
+    <ImageView
+        android:id="@+id/forward_arrow_view"
+        style="@style/dayChangeArrows"
+        android:contentDescription="@string/content_description_next"
+        android:src="@drawable/baseline_arrow_forward"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_daily_details"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:paddingTop="@dimen/recycler_view_top_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

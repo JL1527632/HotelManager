@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name" translatable="true">Orange - Hotel Manager</string>
+    <string name="app_label" translatable="true">Hotel Manager</string>
+    <string name="action_settings" translatable="true">Settings</string>
+
+    <!-- User Interface and Accessibility Resources -->
+    <string name="content_description_previous" translatable="true">Go to previous day</string>
+    <string name="content_description_next" translatable="true">Go to next day</string>
+    <string name="content_description_icon" translatable="true">Application icon</string>
+
+    <!-- STRINGS FOR ROOM STATUS -->
+    <string name="status_dirty" translatable="true"> Dirty</string>
+    <string name="status_occupied" translatable="true">Occupied</string>
+    <string name="status_clean" translatable="true">Clean</string>
+    <string name="reservations_status" translatable="true">Reservation or Status</string>
+
+    <!-- STRINGS RESOURCES FOR ROOM TYPES -->
+    <string name="room_type_sb" translatable="true">Single Bed</string>
+    <string name="room_type_ss" translatable="true">Single Smoking</string>
+    <string name="room_type_db" translatable="true">Double Bed</string>
+    <string name="room_type_ds" translatable="true">Double Smoking</string>
+    <string name="room_type_ste" translatable="true">Suite</string>
+    <string name="room_type_sts" translatable="true">Smoking Suite</string>
+
+    <!-- STRINGS FOR ROOM INFORMATION -->
+    <string name="room_number">Room number</string>
+    <string name="room_type"> Room type</string>
+
+    <!-- STRING RESOURCES FOR RESERVATION INFORMATION -->
+    <string name="guest_name" translatable="true">Guest Name</string>
+    <string name="arrival_date">Arrival Date</string>
+    <string name="with" translatable="true">with</string>
+    <string name="departure_date">Departure Date</string>
+    <string name="arriving" translatable="true">arriving</string>
+    <string name="leaving" translatable="true">leaving</string>
+    <string name="price" translatable="true">Price</string>
+    <string name="no_reservation" translatable="true">No Reservation Assigned</string>
+    <string name="reservations" translatable="true">reservations</string>
+    <string name="number" translatable="true">Number</string>
+    <string name="no_room_information" translatable="true"> No Room Information</string>
+    <string name="with_no_assignment" translatable="true">with no room assignmend</string>
+    <string name="assigned_to" translatable="true">assigned to room</string>
+    <string name="at_price" translatable="true">at</string>
+    <string name="per_night" translatable="true">per night.</string>
+
+    <!-- USER OPERATIONS -->
+    <string name="save" translatable="true">Save</string>
+    <string name="cancel" translatable="true">Cancel</string>
+    <string name="error_date" translatable="true">Date range invalid.</string>
+    <string name="error_name" translatable="true">Name cannot be empty.</string>
+    <string name="error_price" translatable="true">Price information invalid.</string>
+    <string name="error_total" translatable="true">Rooms cannot be negative</string>
+    <string name="valid_data" translatable="true">Valid Data</string>
+    <string name="unsaved_information" translatable="true">Information will not be saved. </string>
+    <string name="unsaved_confirm" translatable="true">Discard Changes</string>
+    <string name="unsaved_stay" translatable="true">Return to editor</string>
+    <string name="no_internet_connection" translatable="true">No Internet Connection Found</string>
+    <string name="pick_arrival_date" translatable="true">Pick arrival date</string>
+    <string name="pick_departure_date" translatable="true">Pick departure date</string>
+    <string name="clean_rooms" translatable="true">Clean Rooms</string>
+    <string name="check_out_guests" translatable="true">Check Out Guests</string>
+
+    <string name="action_clean_rooms" translatable="true">Clean all unoccupied rooms?</string>
+    <string name="action_checkout_guests" translatable="true">Would you like to check out all guests
+    with departure date of today?</string>
+    <string name="confirm_action" translatable="true">Confirm</string>
+    <string name="cancel_action" translatable="true">Cancel. Go back.</string>
+
+    <!-- INTENTS AND EXTRAS -->
+    <string name="extra_details" translatable="false">EXTRA_DETAILS</string>
+    <string name="extra_information" translatable="false">EXTRA_INFORMATION</string>
+    <string name="extra_reservation" translatable="false">EXTRA_RESERVATION</string>
+    <string name="extra_status" translatable="false">EXTRA_STATUS</string>
+    <string name="extra_name" translatable="false">EXTRA_NAME</string>
+    <string name="extra_price" translatable="false">EXTRA_PRICE</string>
+    <string name="extra_checkin_date" translatable="false">EXTRA_IN</string>
+    <string name="extra_checkout_date" translatable="false">EXTRA_OUT</string>
+    <string name="title_activity_about_hotel" translatable="true">About Hotel</string>
+    <string name="extra_today" translatable="false">EXTRA_TODAY</string>
+    <string name="bundle_selection" translatable="false">BUNDLE_DATE</string>
+
+    <!-- Strings related to Settings -->
+    <string name="about_hotel" translatable="true">About Hotel</string>
+    <string name="hotel_name" translatable="true">Hotel Name</string>
+    <string name="total_rooms" translatable="true">Total Rooms</string>
+    <string name="rooms" translatable="true">Rooms</string>
+    <string name="occupied_rooms" translatable="true">occupied rooms</string>
+    <string name="hint_hotel_name" translatable="true">hotel name</string>
+    <string name="hint_rooms_s" translatable="true">Enter number of single rooms</string>
+    <string name="hint_rooms_d" translatable="true">Enter number of double rooms</string>
+    <string name="hint_rooms_ss" translatable="true">Enter number of single smoking rooms</string>
+    <string name="hint_rooms_ds" translatable="true">Enter number of double smoking rooms</string>
+    <string name="hint_rooms_st" translatable="true">Enter number of suites</string>
+    <string name="hint_rooms_sts" translatable="true">Enter number of smoking suites</string>
+
+</resources>

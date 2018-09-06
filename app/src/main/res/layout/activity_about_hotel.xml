@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/general_margin"
+    android:paddingRight="@dimen/general_margin"
+    tools:context=".ui.AboutHotelActivity">
+
+    <TextView
+        android:id="@+id/hotel_name_view"
+        style="@style/settingOptionText"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="HOTEL NAME" />
+
+    <EditText
+        android:id="@+id/hotel_name_edit"
+        style="@style/settingsViews"
+        android:hint="@string/hint_hotel_name"
+        android:inputType="text"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/total_rooms_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_header_height"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hotel_name_view"
+        tools:text="TOTAL ROOMS" />
+
+    <TextView
+        android:id="@+id/single_rooms_view"
+        style="@style/settingOptionText"
+        android:paddingTop="@dimen/space_padding"
+        android:textAlignment="textEnd"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/total_rooms_view"
+        tools:text="SINGLE_ROOMS" />
+
+    <EditText
+        android:id="@+id/single_rooms_edit"
+        style="@style/settingsViews"
+        android:hint="@string/hint_rooms_s"
+        android:inputType="number"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/total_rooms_view" />
+
+    <TextView
+        android:id="@+id/double_rooms_view"
+        style="@style/settingOptionText"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/single_rooms_view"
+        tools:text="DOUBLE_ROOMS" />
+
+    <EditText
+        android:id="@+id/double_rooms_edit"
+        style="@style/settingsViews"
+        android:hint="@string/hint_rooms_d"
+        android:inputType="number"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/single_rooms_edit" />
+
+    <TextView
+        android:id="@+id/single_smoking_view"
+        style="@style/settingOptionText"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/double_rooms_view"
+        tools:text="SINGLE_SMOKING" />
+
+    <EditText
+        android:id="@+id/single_smoking_edit"
+        style="@style/settingsViews"
+        android:hint="@string/hint_rooms_ss"
+        android:inputType="number"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/double_rooms_edit" />
+
+    <TextView
+        android:id="@+id/double_smoking_view"
+        style="@style/settingOptionText"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/single_smoking_view"
+        tools:text="DOUBLE SMOKING" />
+
+    <EditText
+        android:id="@+id/double_smoking_edit"
+        style="@style/settingsViews"
+        android:hint="@string/hint_rooms_ds"
+        android:inputType="number"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/single_smoking_edit" />
+
+    <TextView
+        android:id="@+id/suite_view"
+        style="@style/settingOptionText"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/double_smoking_view"
+        tools:text="SUITES" />
+
+    <EditText
+        android:id="@+id/suite_edit"
+        style="@style/settingsViews"
+        android:hint="@string/hint_rooms_st"
+        android:inputType="number"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/double_smoking_edit" />
+
+    <TextView
+        android:id="@+id/suite_smoking_view"
+        style="@style/settingOptionText"
+        android:paddingTop="@dimen/space_padding"
+        android:textAlignment="textEnd"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suite_view"
+        tools:text="SMOKING SUITES" />
+
+    <EditText
+        android:id="@+id/suite_smoking_edit"
+        style="@style/settingsViews"
+        android:hint="@string/hint_rooms_sts"
+        android:inputType="number"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suite_edit" />
+
+    <View
+        android:id="@+id/break_view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingTop="@dimen/space_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suite_smoking_edit" />
+
+    <Button
+        android:id="@+id/save_button"
+        style="@style/FinalSelectionButton"
+        android:layout_marginTop="@dimen/general_margin"
+        android:text="@string/save"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/break_view" />
+
+</android.support.constraint.ConstraintLayout>

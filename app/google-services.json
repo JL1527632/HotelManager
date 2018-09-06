@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "649021940405",
+    "firebase_url": "https://orangehotel-a9c56.firebaseio.com",
+    "project_id": "orangehotel-a9c56",
+    "storage_bucket": "orangehotel-a9c56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649021940405:android:1db3a7d241a8386f",
+        "android_client_info": {
+          "package_name": "com.leon.example.orangehotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649021940405-q7j9pv6iciip6g45mfgjfj5jpkd8afeo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leon.example.orangehotel",
+            "certificate_hash": "1cf8340528315ba0b2315b81c435e7be0ef2f0cc"
+          }
+        },
+        {
+          "client_id": "649021940405-jh4a2bmbh6r602cmgt8a3ahdf61g6gh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuOD0lIksvjK7I9BlNOeBj9skGPwnnbVE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649021940405-jh4a2bmbh6r602cmgt8a3ahdf61g6gh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

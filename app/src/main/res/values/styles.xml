@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FinalSelectionButton">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+    </style>
+
+    <style name="OptionSelectionButton">
+        <item name="android:background">@color/accentLight</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="settingOptionText">
+        <item name="android:layout_width">@dimen/settings_header_width</item>
+        <item name="android:layout_height">@dimen/settings_header_height</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textColor">@color/settingsOptionColor</item>
+    </style>
+
+    <style name="singleItemTitle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/list_room_index_width</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/list_room_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">@dimen/general_margin</item>
+        <item name="android:paddingEnd">@dimen/general_margin</item>
+    </style>
+
+    <style name="singleItemDescriptor">
+        <item name="android:layout_width">@dimen/list_room_descriptor_width</item>
+        <item name="android:layout_weight">@dimen/list_room_descriptor_weight</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/list_room_text_size</item>
+        <item name="android:paddingStart">@dimen/general_margin</item>
+        <item name="android:paddingEnd">@dimen/general_margin</item>
+    </style>
+
+    <style name="fabStyle">
+        <item name="android:layout_width">@dimen/fab_side</item>
+        <item name="android:layout_height">@dimen/fab_side</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="hzBreakView">
+        <item name="android:layout_height">@dimen/general_margin</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="summaryTextView">
+        <item name="android:textSize">@dimen/summary_text_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/list_room_height</item>
+        <item name="android:layout_marginTop">@dimen/general_margin</item>
+    </style>
+
+    <style name="dailyTitleParent">
+        <item name="android:layout_height">@dimen/settings_header_height</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:translationZ">@dimen/general_margin</item>
+    </style>
+
+    <style name="dailyTitle" parent="@style/dailyTitleParent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/daily_title_text_size</item>
+
+        <item name="android:textColor">@color/title_color</item>
+    </style>
+
+    <style name="dayChangeArrows" parent="@style/dailyTitleParent">
+        <item name="android:layout_width">@dimen/day_change_width</item>
+    </style>
+
+    <style name="editor_title_views">
+        <item name="android:layout_height">@dimen/editor_title_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/summary_text_size</item>
+    </style>
+
+    <style name="editor_options_headers">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/editor_header_width</item>
+        <item name="android:textSize">@dimen/summary_text_size</item>
+    </style>
+
+    <style name="editor_editable">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/editor_editable_height</item>
+        <item name="android:layout_marginStart">@dimen/general_margin</item>
+    </style>
+
+    <style name="editor_date_view">
+        <item name="android:layout_width">@dimen/editor_date_width</item>
+        <item name="android:layout_height">@dimen/editor_editable_height</item>
+        <item name="android:textSize">@dimen/summary_text_size</item>
+    </style>
+
+    <style name="visualBreak">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/hz_visual_break_height</item>
+    </style>
+
+    <style name="settingsViews">
+        <item name="android:layout_width">@dimen/settings_editable_width</item>
+        <item name="android:layout_height">@dimen/settings_editable_height</item>
+    </style>
+
+</resources>

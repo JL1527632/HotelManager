@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF3400</color>
+    <color name="colorPrimaryDark">#C3340d</color>
+    <color name="colorAccent">#00af9C</color>
+    <color name="settingsOptionColor">#006650</color>
+    <color name="colorAccentDark">#006600</color>
+    <color name="widgetBackground">#FF6440</color>
+    <color name="title_color">#FFFFFF</color>
+    <color name="accentLight">#FF9E80</color>
+
+    <color name="text_dirty_room">#0000CF</color>
+    <color name="text_clean_room">#009000</color>
+    <color name="reservation_background_dark">#DFFFDF</color>
+    <color name="reservation_background_light">#CFFFCF</color>
+    <color name="no_reservation_light">#EFEFEF</color>
+    <color name="no_reservation_dark">#E9E9E9</color>
+</resources>
